@@ -22,8 +22,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/habilidad")
-@CrossOrigin(origins = "http://localhost:4200")
-//@CrossOrigin(origins = "https://mgbfrontend.web.app")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontend-ap-386c3.web.app")
 public class HabilidadController {
     @Autowired
     ImpHabilidadService impHabilidadService;
